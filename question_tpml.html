@@ -30,11 +30,10 @@
 
             <div class="col-xs-12">
               <h4>Example 1</h4>
-
               <p style="color: #5bc0de"><strong>Email 1:</strong></p>
-              <div class="pull-left label-box">
-                here's
-                <input type="checkbox" name="chk" class="form-control input-xs">
+              <div class="pull-left label-box select-box">
+                <h5>here's</h5>
+                <input type="checkbox" name="chk" class="input-xs">
               </div>
               <div class="pull-left label-box">
                 the
@@ -196,7 +195,8 @@
                 Gloria,
                 <input type="checkbox" name="chk" class="form-control input-xs">
               </div>
-              <div class="clear" ></div>
+            </div>
+            <div class="col-xs-12">
               <p style="color: #5bc0de"><strong>Email 2:</strong></p>
               <div class="pull-left label-box">
                 Gloria,
@@ -1059,25 +1059,12 @@
       border-radius: 5px;
       margin-bottom: 5px;
     }
-  
-    .pull-left{
-      color: navy;
-      text-align: center;
-    }
-
-  
     .input-xs {
-      text-align: center;
-      width: 12px;
-      height: 12px;
-      font-size: 12px;
-      line-height: 1.5; /* If Placeholder of the input is moved up, rem/modify this. */
-      border-radius: 3px;
+      display: inline-block;
     }
-    .clear{ clear:both}
     .label-box {
       text-align: center;
-      padding: 1px;
+      padding: 2px;
       margin: auto;
       border: 1px solid #ddd;
       width: 80px;
